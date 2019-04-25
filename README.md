@@ -1,103 +1,162 @@
-# 🏆 – A Blog Theme for Jekyll
-Trophy is a blog theme for Jekyll built using HTML, Sass, and JavaScript (no jQuery). External stylesheets and libraries included are Google Fonts, Font Awesome, Normalize.CSS, Rellax, and WOW.js.
-Trophy is also available in [Ghost](https://github.com/thomasvaeth/trophy-ghost).
+# Jekflix Template
+![Cover Image](http://res.cloudinary.com/dm7h7e8xj/image/upload/v1505354182/jekflix-logo_mfngps.png)
 
-## Screenshots
-Blog Page (Posts)
-![Blog Page](https://github.com/thomasvaeth/trophy-jekyll/blob/master/_screenshots/screenshot-1.png "Desktop screenshot")
+See the [demo here](https://www.rossener.com/jekflix-template).
 
-Blog Page (Categories)
-![Blog Page](https://github.com/thomasvaeth/trophy-jekyll/blob/master/_screenshots/screenshot-2.png "Desktop screenshot")
+## What is it?
 
-Post Page (Mast)
-![Post Page](https://github.com/thomasvaeth/trophy-jekyll/blob/master/_screenshots/screenshot-3.png "Desktop screenshot")
+A template for Jekyll inspired by Netflix panel for who loves movies and series and would like to have a blog with this cool appearance ;)
 
-Post Page (Profile & Footer)
-![Post Page](https://github.com/thomasvaeth/trophy-jekyll/blob/master/_screenshots/screenshot-4.png "Desktop screenshot")
+![Screenshot](http://res.cloudinary.com/dm7h7e8xj/image/upload/v1505357238/jekflix-screenshot_qikqkl.jpg)
 
-Archive Page
-![Archive Page](https://github.com/thomasvaeth/trophy-jekyll/blob/master/_screenshots/screenshot-5.png "Desktop screenshot")
+## Features
 
-## Installation
-All dependencies are saved in the ````Gemfile````. Run ````bundle install```` (Install [Bundler](http://bundler.io/) if it is not already) after cloning the repo.
+- Gulp
+- Stylus
+- Live Search
+- Minutes to Read
+- Reading Progress Bar
+ 
+ ![Progress Bar](http://res.cloudinary.com/dm7h7e8xj/image/upload/v1505357769/jekflix-progress-bar_he7gqf.jpg)
+- "New Post" tag
+- Load images on demand
+- Emojis 😎
+- Push Menu
+- SVG icons
+- Shell Script to create drafts and posts
+- Tags page
+- About page
+- Contact page
+- Feed RSS
+- Sitemap.xml
+- Info Customization
+- Disqus
+- Pagination
+- Google Analytics
 
-## Edit Theme
-I made everything as easy as possible to edit. Most things can be found in the ````_config.yml````, but if more editing is required digging through the code will be required. The ````head.html```` file is in the ````_includes```` folder and the Sass variables are found in the ````_base.scss```` file in the ````_sass```` folder.
+## Setup
 
-### _config.yml
+1. Install Jekyll (use the command `gem install jekyll`)
+1. Fork the [Jekflix Template](https://github.com/thiagorossener/jekflix-template/fork)
+1. Clone the repo you just forked
+1. Edit `_config.yml` to personalize your site. 
+1. Check out the sample posts in `_posts` to see examples for assigning category, tags, image and other YAML data
+1. Read the documentation below for further customization pointers and documentation
+1. Remember to compile your assets files with Gulp
 
-#### Site Settings
-    email: 
-    baseurl: ""
-    paginate: 5
-    paginate_path: "/blog/page-:num"
-    google_analytics: UA—XXXXXXXX-X
+## Running local
 
-* ````email```` - Your email for the contact card and the footer
-* ````baseurl```` - Path of blog if adding this on to another website
-* ````paginate```` - Number of blog posts per page
-* ````paginate_path```` - URL structure of paginated pages
-* ````google_analytics```` - Option field to replace with correct Google Analytics code
+In order to compile the assets and run Jekyll on local you need to follow those steps:
 
-#### SEO Settings
-    title: 
-    description: 
-    url: ""
-    twitter_username: 
-    default_img: 
+- Install [NodeJS](https://nodejs.org/) (remember to use the latest version)
+- Run `npm install`
+- Run `npm install -g gulp gulp-cli`
+- Open `_config.yml` and change to:
+```
+baseurl: ""
+url: ""
+```
+- Run `gulp`
 
-* ````title```` - Title of blog
-* ````description```` - Description of blog (recommended to not go over 160 characters)
-* ````url```` - URL of main website
-* ````twitter_username```` - Twitter username
-* ````default_img```` - Image that will appear when posting links on social networks
+## Settings
 
-#### Profile Settings
-    name: 
-    profile_img: 
-    profile: 
-    social:
-      github: 
+You have to fill some informations on `_config.yml` to customize your site.
 
-* ````name```` - Full name for SEO purposes
-* ````profile_img```` - Image for the profile card (size to 2000x1200px)
-* ````profile```` - Short description that will be in the profile card
-* ````social```` - List of social networks for icons in the contact card and the footer ([Font Awesome](http://fontawesome.io/) is used, so only match the name of the icon, but do not include ````fa-````)
+```
+# Site Settings
+title: Thiago Rossener | Front-end Developer
+email: youremail@xyz.com
+description: Some text about your blog.
+baseurl: "" # the subpath of your site, e.g. /blog/ or empty.
+url: "https://www.rossener.com" # the base hostname & protocol for your site
+google_analytics: "UA-XXXXXXXX-X"
 
+# User settings
+username: Thiago Rossener # it will appear on each page title after '|'
+user_description: Some text about you.
+disqus_username: disqus_username
 
-#### Build Settings
-    exclude: ["_screenshots", "Gemfile", "Gemfile.lock", "LICENSE.txt", "README.md"]
-    permalink: /:year/:month/:day/:title/
+# Social Media settings
+# Remove the item if you don't need it
+github_username: github_username
+facebook_username: facebook_username
+twitter_username: twitter_username
+instagram_username: instagram_username
+linkedin_username: linkedin_username
+medium_username: medium_username
+```
 
-* ````exclude```` - Folders that are excluded from `_site_`
-* ````permalink```` - URL structure of blog posts
+## Color customization
 
-### _posts
-    ---
-    layout: post
-    title: ""
-    date: 
-    categories:
-    description: 
-    image: 
-    image-sm:
-    ---
+All color variables are in [src/styl/_variables.styl](src/styl/_variables.styl).
 
-This is the YAML front matter block for blog posts.
-* ````layout```` - This field will always be post
-* ````title```` - The title of the blog post
-* ````date```` - The date that will appear on the blog post
-* ````categories```` - Optional field that can be entered as an array or a list
-* ````description```` - Optional field for SEO (recommended to not go over 160 characters)
-* ````image```` - The blog theme was designed for 2000x1200px images (optimize your images because this is a picture heavy theme)
-* ````image-sm```` - Optional field for card layouts for image optimization and page speed (designed for 500x300px images)
+Default colors:
 
-## Upcoming Additions
-* Page transitions
-* More styled elements for blog posts
+![#ff0a16](https://placehold.it/15/ff0a16/000000?text=+) `#FF0A16` Theme Color
 
-## Issues
-Please submit any issues [here](https://github.com/thomasvaeth/trophy-jekyll/issues).
+![#141414](https://placehold.it/15/141414/000000?text=+) `#141414` Primary Dark
+
+![#ffffff](https://placehold.it/15/ffffff/000000?text=+) `#FFFFFF` Accent Dark
+
+![#f2f2f2](https://placehold.it/15/f2f2f2/000000?text=+) `#F2F2F2` Light Gray
+
+![#333333](https://placehold.it/15/333333/000000?text=+) `#333333` Texts
+
+## Creating drafts
+
+You can use the `initdraft.sh` to create your new drafts. Just follow the command:
+
+```
+./initdraft.sh -c Post Title
+```
+
+The new file will be created at `_drafts` with this format `date-title.md`.
+
+## Creating posts
+
+You can use the `initpost.sh` to create your new posts. Just follow the command:
+
+```
+./initpost.sh -c Post Title
+```
+
+The new file will be created at `_posts` with this format `date-title.md`.
+
+## Front-matter 
+
+When you create a new post, you need to fill the post information in the front-matter, follow this example:
+
+```
+---
+layout: post
+title: "Welcome"
+description: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+image: 'http://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_760/v1504807239/morpheus_xdzgg1.jpg'
+category: 'blog'
+tags:
+- blog
+- jekyll
+twitter_text: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+introduction: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+---
+```
+
+**Your image size should have the proportion of a 600x315 image to look good on home page.**
+
+## Questions?
+
+File a [GitHub Issue](https://github.com/thiagorossener/jekflix-template/issues/new) please.
+
+## Donation
+
+Did you like my work? Buy me a beer :)
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SAKL66RSDGH48&source=url)
+
+## Author
+
+[Thiago Rossener](https://www.rossener.com/) based on [Cards Jekyll Template](https://github.com/willianjusten/cards-jekyll-template).
 
 ## License
-Trophy is licensed under the MIT License.
+
+*Jekflix Template* is available under the MIT license. See the LICENSE file for more info.

@@ -1,24 +1,26 @@
 ---
 layout: post
 title: 8 Facts About AIDS
-date: '2018-12-26'
-categories:
+date: 2018-12-26 00:00:00
+description: Lets Aid Each Other To Combat AIDS. Presenting to you 8 Facts about AIDS.
+twitter_text: Lets Aid Each Other To Combat AIDS. Presenting to you 8 Facts about AIDS.
+introduction: Lets Aid Each Other To Combat AIDS. Presenting to you 8 Facts about AIDS.
+image: /assets/img/factsaboutaids.jpg
+category: 'Facts'
+tags:
   - facts
-
-description: >-
-  Lets Aid Each Other To Combat AIDS. Presenting to you 8 Facts about AIDS.
-
-image: factsaboutaids.jpg
-image-sm: factsaboutaids.jpg
-image-preview: factsaboutaids.jpg
 author:
-  name:
+  name: 
   profile: 
   image: 
-  email: 
   social:
+    instagram:
     facebook: 
-    instagram: 
+    github: 
+    twitter: 
+    medium: 
+    linkedin: 
+    website:
 ---
 
 ## Fact 1

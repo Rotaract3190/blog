@@ -1,23 +1,26 @@
 ---
 layout: post
 title: World Rotaract Week
-date: '2019-03-13'
-categories:
-  - facts
-
-description: >-
-  Show the world how Rotaract is making a difference during our World Rotaract Week celebration each March.
-image: world-rotaract-week.jpeg
-image-sm: world-rotaract-week.jpeg
-image-preview: world-rotaract-week.jpeg
+date: 2019-03-13 00:00:00
+description: Show the world how Rotaract is making a difference during our World Rotaract Week celebration each March.
+twitter_text: Show the world how Rotaract is making a difference during our World Rotaract Week celebration each March.
+introduction: Show the world how Rotaract is making a difference during our World Rotaract Week celebration each March.
+image: /assets/img/world-rotaract-week.jpeg
+category: 'Facts'
+tags:
+  - facts 
 author:
   name: Rtr Spoorthi
   profile: Spoorthi is a student of Surana college and also a Rotaractor from Rotaract club of Surana College. In between reading every novel she could get her hands on, she sometimes writes blogs. Known for her facepalm worthy puns and an unpredictable burst of energy especially when there's music playing in the background, she is currently cringing as she writes about herself.
-  image: spoorthi.jpeg
-  email: 
+  image: /assets/img/authors/spoorthi.jpeg
   social:
-    globe: https://randomstoriesallaround.wordpress.com/
-    instagram: https://www.instagram.com/spoofenshmirtz/
+    instagram: https://www.instagram.com/spoofenshmirtz/ 
+    facebook: 
+    github: 
+    twitter: 
+    medium: 
+    linkedin: 
+    website: https://randomstoriesallaround.wordpress.com/
 ---
 
 *In a world full of people running races, we need to learn how to run the world with each other.*
