@@ -1,0 +1,85 @@
+<section class="author" itemprop="author">
+  <div class="details" itemscope itemtype="http://schema.org/Person">
+    <img itemprop="image" class="img-rounded" src="{% if page.author.image %}{% if page.author.image contains "://" %}{{ page.author.image }}{% else %}{{ page.author.image | absolute_url }}{% endif %}{% else %}{{ site.user_image | absolute_url }}{% endif %} "  alt="{% if page.author.image and page.author.name %}{{ page.author.name }}{% else %}{{ site.username }}{% endif %}">
+    <p class="def">Author</p> 
+    <h3 class="name">
+      <a>{% if page.author.name %}{{ page.author.name }}{% else %}{{ site.username }}{% endif %}</a>
+    </h3>
+    <p class="desc">{% if page.author.name %}{{ page.author.profile }}{% else %}{{ site.user_description }}{% endif %}</p>
+    <p>
+      {% if page.author.name %}
+        {% if page.author.social.github %}
+        <a itemprop="github" href="{{ page.author.social.github }}" title="Github">
+          <svg><use xlink:href="#icon-github"></use></svg>
+        </a>
+        {% endif %}
+        {% if page.author.social.facebook %}
+        <a itemprop="facebook" href="{{ page.author.social.facebook }}" title="Facebook">
+          <svg><use xlink:href="#icon-facebook"></use></svg>
+        </a>
+        {% endif %}
+        {% if page.author.social.twitter %}
+        <a itemprop="twitter" href="{{ page.author.social.twitter }}" title="Twitter">
+          <svg><use xlink:href="#icon-twitter"></use></svg>
+        </a>
+        {% endif %}
+        {% if page.author.social.medium %}
+        <a itemprop="medium" href="{{ page.author.social.medium }}" title="Medium">
+          <svg><use xlink:href="#icon-medium"></use></svg>
+        </a>
+        {% endif %}
+        {% if page.author.social.instagram %}
+        <a itemprop="instagram" href="{{ page.author.social.instagram }}" title="Instagram">
+          <svg><use xlink:href="#icon-instagram"></use></svg>
+        </a>
+        {% endif %}
+        {% if page.author.social.linkedin %}
+        <a itemprop="linkedin" href="{{ page.author.social.linkedin }}" title="LinkedIn">
+          <svg><use xlink:href="#icon-linkedin"></use></svg>
+        </a>
+        {% endif %}
+        {% if page.author.social.website %}
+        <a itemprop="weblink" href="{{ page.author.social.website }}" title="Websie">
+          <svg><use xlink:href="#icon-weblink"></use></svg>
+        </a>
+        {% endif %}
+      {% else %}
+        {% if site.github_username %}
+        <a itemprop="github" href="https://github.com/{{ site.github_username }}" title="Github">
+          <svg><use xlink:href="#icon-github"></use></svg>
+        </a>
+        {% endif %}
+        {% if site.facebook_username %}
+        <a itemprop="facebook" href="https://www.facebook.com/{{ site.facebook_username }}" title="Facebook">
+          <svg><use xlink:href="#icon-facebook"></use></svg>
+        </a>
+        {% endif %}
+        {% if site.twitter_username %}
+        <a itemprop="twitter" href="https://twitter.com/{{ site.twitter_username }}" title="Twitter">
+          <svg><use xlink:href="#icon-twitter"></use></svg>
+        </a>
+        {% endif %}
+        {% if site.medium_username %}
+        <a itemprop="medium" href="https://medium.com/@{{ site.medium_username }}" title="Medium">
+          <svg><use xlink:href="#icon-medium"></use></svg>
+        </a>
+        {% endif %}
+        {% if site.instagram_username %}
+        <a itemprop="instagram" href="https://www.instagram.com/{{ site.instagram_username }}" title="Instagram">
+          <svg><use xlink:href="#icon-instagram"></use></svg>
+        </a>
+        {% endif %}
+        {% if site.linkedin_username %}
+        <a itemprop="linkedin" href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn">
+          <svg><use xlink:href="#icon-linkedin"></use></svg>
+        </a>
+        {% endif %}
+        {% if site.website %}
+        <a itemprop="weblink" href="{{ site.website }}" title="Websie">
+          <svg><use xlink:href="#icon-weblink"></use></svg>
+        </a>
+        {% endif %}
+      {% endif %}
+    </p>
+  </div>
+</section>

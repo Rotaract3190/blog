@@ -1,0 +1,54 @@
+# Site Settings
+title: Rotaract 3190 | Blog
+email: admin@rotaract3190.org
+description: Take a Step Towards change!!!
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://blog.rotaract3190.org" # the base hostname & protocol for your site
+google_analytics: "UA-122171689-2"
+timezone: Asia/Kolkata
+
+# User Settings
+username: Rotaract 3190
+user_description: Take a Step Towards change!!!
+# disqus_username: rotaract3190
+
+user_image: /assets/img/authors/district3190.jpg
+# Social Media
+# Remove the item if you don't need it
+# github_username: Rotaract3190
+facebook_username: RIDist3190
+twitter_username: Rotaract3190
+instagram_username: rotaract3190
+# linkedin_username: 
+# medium_username: 
+website: https://rotaract3190.org
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:year-:month-:day-:title/
+paginate: 12
+paginate_path: "/page-:num/"
+svg_color: "#ff0a16"
+
+# Plugins
+plugins:
+  - jemoji
+  - jekyll-paginate
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Categories
+    url: /categories/
+  - title: Tags
+    url: /tags/
+  - title: Contact
+    url: /contact/
+
+# Exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
