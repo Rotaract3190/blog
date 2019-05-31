@@ -26,7 +26,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Description", name: "description", widget: "markdown"}
       - {label: "Twitter Text", name: "twitter_text", widget: "markdown"}
       - {label: "Introduction", name: "introduction", widget: "markdown"}
-      - {label: "Image", name: "image", widget: "string", default: "/assets/img/_____"}
+      - {label: "Image", name: "image", widget: "image", default: "/assets/img/_____"}
       - label: "Category"
         name: "category"
         widget: "select"
@@ -44,18 +44,18 @@ collections: # A list of collections the CMS should be able to edit
         name: author
         widget: object
         fields:
-          - {label: "Author Name", name: "name", widget: "string", tagname: "name"}
-          - {label: "Author Profile", name: "profile", widget: "markdown"}
-          - {label: "Author Image", name: "image", widget: "string", default: "/assets/img/authors/_____"}
+          - {label: "Author Name", name: "name", widget: "string", tagname: "name", required: false}
+          - {label: "Author Profile", name: "profile", widget: "markdown", required: false}
+          - {label: "Author Image", name: "image", widget: "image", default: "/assets/img/authors/_____", required: false}
           - label: Social
             name: social
             widget: object
             fields:
-              - {label: "Author Instagram", name: "instagram", widget: "string", default: ""}
-              - {label: "Author Facebook", name: "facebook", widget: "string", default: ""}
-              - {label: "Author Github", name: "github", widget: "string", default: ""}
-              - {label: "Author Twitter", name: "twitter", widget: "string", default: ""}
-              - {label: "Author Medium", name: "medium", widget: "string", default: ""}
-              - {label: "Author Linkedin", name: "linkedin", widget: "string", default: ""}
-              - {label: "Author Website", name: "website", widget: "string", default: ""}
+              - {label: "Author Instagram", name: "instagram", widget: "string", default: "", required: false}
+              - {label: "Author Facebook", name: "facebook", widget: "string", default: "", required: false}
+              - {label: "Author Github", name: "github", widget: "string", default: "", required: false}
+              - {label: "Author Twitter", name: "twitter", widget: "string", default: "", required: false}
+              - {label: "Author Medium", name: "medium", widget: "string", default: "", required: false}
+              - {label: "Author Linkedin", name: "linkedin", widget: "string", default: "", required: false}
+              - {label: "Author Website", name: "website", widget: "string", default: "", required: false}
       - {label: "Body", name: "body", widget: "markdown"} 
