@@ -1,6 +1,6 @@
 .idea
 .DS_Store
-.sass-cache
+.jekyll-cache
 Gemfile.lock
 package-json.lock
 _site
