@@ -5,7 +5,7 @@ date: 2017-07-29 00:00:00
 description: Humans of 3190 featuring the story of Rtr. Sahana Kashyap
 twitter_text: Humans of 3190 featuring the story of Rtr. Sahana Kashyap
 introduction: Humans of 3190 featuring the story of Rtr. Sahana Kashyap
-image: /assets/img/sahanakashyap.jpg
+image: /assets/img/posts/sahanakashyap.jpg
 category: 'Humans of 3190'
 tags:
   - humans-of-3190

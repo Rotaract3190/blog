@@ -1,7 +1,7 @@
 # Site Settings
 title: Rotaract 3190 | Blog
 email: admin@rotaract3190.org
-description: Take a Step Towards change!!!
+description: Serve to Achieve - TeamPanthers
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.rotaract3190.org" # the base hostname & protocol for your site
 google_analytics: "UA-122171689-2"
@@ -9,7 +9,7 @@ timezone: Asia/Kolkata
 
 # User Settings
 username: Rotaract 3190
-user_description: Take a Step Towards change!!!
+user_description: Serve to Achieve - TeamPanthers
 # disqus_username: rotaract3190
 
 user_image: /assets/img/authors/district3190.jpg

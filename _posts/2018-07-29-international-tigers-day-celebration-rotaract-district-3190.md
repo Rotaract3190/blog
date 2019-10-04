@@ -5,7 +5,7 @@ date: 2018-07-29 00:00:00
 description: The Nature Trail gave Rotaractors of Rotaract District 3190 an insight about tiger habitat and it's conservation and the common threats for the same, on the occasion of International Tigers Day.
 twitter_text: The Nature Trail gave Rotaractors of Rotaract District 3190 an insight about tiger habitat and it's conservation and the common threats for the same, on the occasion of International Tigers Day.
 introduction: The Nature Trail gave Rotaractors of Rotaract District 3190 an insight about tiger habitat and it's conservation and the common threats for the same, on the occasion of International Tigers Day.
-image: /assets/img/20180728110322_img_4202.jpg
+image: /assets/img/posts/20180728110322_img_4202.jpg
 category: 'Zonal Event'
 tags:
   - zonal-event

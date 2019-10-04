@@ -5,7 +5,7 @@ date: 2017-10-07 00:00:00
 description: Humans of 3190 featuring the story of Rtr. Nishta Jain
 twitter_text: Humans of 3190 featuring the story of Rtr. Nishta Jain
 introduction: Humans of 3190 featuring the story of Rtr. Nishta Jain
-image: /assets/img/nishta_jain.jpg
+image: /assets/img/posts/nishta_jain.jpg
 category: 'Humans of 3190'
 tags:
   - humans-of-3190

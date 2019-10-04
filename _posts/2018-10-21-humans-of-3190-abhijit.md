@@ -5,7 +5,7 @@ date: 2018-10-21 00:00:00
 description: Humans of 3190 featuring the story of Rtr. Abhijit Raghunathan
 twitter_text: Humans of 3190 featuring the story of Rtr. Abhijit Raghunathan
 introduction: Humans of 3190 featuring the story of Rtr. Abhijit Raghunathan
-image: /assets/img/Abhijit.jpg
+image: /assets/img/posts/Abhijit.jpg
 category: 'Humans of 3190'
 tags:
   - humans-of-3190

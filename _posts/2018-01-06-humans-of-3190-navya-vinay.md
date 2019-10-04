@@ -5,7 +5,7 @@ date: 2018-01-06 00:00:00
 description: Humans of 3190 featuring the story of Rtr. Navya Vinay | Rotaract Club of Surana College
 twitter_text: Humans of 3190 featuring the story of Rtr. Navya Vinay | Rotaract Club of Surana College
 introduction: Humans of 3190 featuring the story of Rtr. Navya Vinay | Rotaract Club of Surana College
-image: /assets/img/navya-vinay.jpg
+image: /assets/img/posts/navya-vinay.jpg
 category: 'Humans of 3190'
 tags:
   - humans-of-3190

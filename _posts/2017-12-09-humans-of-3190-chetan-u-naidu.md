@@ -5,7 +5,7 @@ date: 2017-12-09 00:00:00
 description: Humans of 3190 featuring the story of Rtr. Chetan U Naidu | Rotaract Club of RIMS
 twitter_text: Humans of 3190 featuring the story of Rtr. Chetan U Naidu | Rotaract Club of RIMS
 introduction: Humans of 3190 featuring the story of Rtr. Chetan U Naidu | Rotaract Club of RIMS
-image: /assets/img/chetan-u-naidu.jpg
+image: /assets/img/posts/chetan-u-naidu.jpg
 category: 'Humans of 3190'
 tags:
   - humans-of-3190

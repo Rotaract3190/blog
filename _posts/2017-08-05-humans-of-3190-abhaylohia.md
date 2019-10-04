@@ -5,7 +5,7 @@ date: 2017-08-05 00:00:00
 description: Humans of 3190 featuring the story of Rtr. Abhay Lohia
 twitter_text: Humans of 3190 featuring the story of Rtr. Abhay Lohia
 introduction: Humans of 3190 featuring the story of Rtr. Abhay Lohia
-image: /assets/img/abhaylohia.jpg
+image: /assets/img/posts/abhaylohia.jpg
 category: 'Humans of 3190'
 tags:
   - humans-of-3190

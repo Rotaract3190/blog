@@ -5,7 +5,7 @@ date: 2017-12-30 00:00:00
 description: Humans of 3190 featuring the story of Rtr. Gouthami Parthasarathy | Rotaract Club of Surana College
 twitter_text: Humans of 3190 featuring the story of Rtr. Gouthami Parthasarathy | Rotaract Club of Surana College
 introduction: Humans of 3190 featuring the story of Rtr. Gouthami Parthasarathy | Rotaract Club of Surana College
-image: /assets/img/gauthami-parthasarathy.jpg
+image: /assets/img/posts/gauthami-parthasarathy.jpg
 category: 'Humans of 3190'
 tags:
   - humans-of-3190

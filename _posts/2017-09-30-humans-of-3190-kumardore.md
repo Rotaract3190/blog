@@ -5,7 +5,7 @@ date: 2017-09-30 00:00:00
 description: Humans of 3190 featuring the story of Rtr. Kumar Dore D
 twitter_text: Humans of 3190 featuring the story of Rtr. Kumar Dore D
 introduction: Humans of 3190 featuring the story of Rtr. Kumar Dore D
-image: /assets/img/kumardore.jpg
+image: /assets/img/posts/kumardore.jpg
 category: 'Humans of 3190'
 tags:
   - humans-of-3190

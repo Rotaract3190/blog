@@ -5,7 +5,7 @@ date: 2017-09-09 00:00:00
 description: Humans of 3190 featuring the story of Rtr. Nitika Mehta
 twitter_text: Humans of 3190 featuring the story of Rtr. Nitika Mehta
 introduction: Humans of 3190 featuring the story of Rtr. Nitika Mehta
-image: /assets/img/nitikamehta.jpg
+image: /assets/img/posts/nitikamehta.jpg
 category: 'Humans of 3190'
 tags:
   - humans-of-3190

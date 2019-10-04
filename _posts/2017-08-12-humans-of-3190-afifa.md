@@ -5,7 +5,7 @@ date: 2017-08-12 00:00:00
 description: Humans of 3190 featuring the story of Rtr. Afifa Kauser
 twitter_text: Humans of 3190 featuring the story of Rtr. Afifa Kauser
 introduction: Humans of 3190 featuring the story of Rtr. Afifa Kauser
-image: /assets/img/afifa.jpg
+image: /assets/img/posts/afifa.jpg
 category: 'Humans of 3190'
 tags:
   - humans-of-3190

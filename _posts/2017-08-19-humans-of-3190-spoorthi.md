@@ -5,7 +5,7 @@ date: 2017-08-19 00:00:00
 description: Humans of 3190 featuring the story of Rtr. Spoorthi K S
 twitter_text: Humans of 3190 featuring the story of Rtr. Spoorthi K S
 introduction: Humans of 3190 featuring the story of Rtr. Spoorthi K S
-image: /assets/img/spoorthis.jpg
+image: /assets/img/posts/spoorthis.jpg
 category: 'Humans of 3190'
 tags:
   - humans-of-3190

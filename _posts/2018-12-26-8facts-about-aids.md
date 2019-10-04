@@ -5,7 +5,7 @@ date: 2018-12-26 00:00:00
 description: Lets Aid Each Other To Combat AIDS. Presenting to you 8 Facts about AIDS.
 twitter_text: Lets Aid Each Other To Combat AIDS. Presenting to you 8 Facts about AIDS.
 introduction: Lets Aid Each Other To Combat AIDS. Presenting to you 8 Facts about AIDS.
-image: /assets/img/factsaboutaids.jpg
+image: /assets/img/posts/factsaboutaids.jpg
 category: 'Facts'
 tags:
   - facts
