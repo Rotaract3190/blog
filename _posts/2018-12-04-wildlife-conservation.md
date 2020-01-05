@@ -5,7 +5,7 @@ date: 2018-12-04 00:00:00
 description: Let's create a safe haven for these beautiful creatures and preserve the beauty of nature for our future generations.
 twitter_text: Let's create a safe haven for these beautiful creatures and preserve the beauty of nature for our future generations.
 introduction: Let's create a safe haven for these beautiful creatures and preserve the beauty of nature for our future generations.
-image: /assets/img/wildlifeconservation2018.jpeg
+image: /assets/img/posts/wildlifeconservation2018.jpeg
 category: 'Wildlife'
 tags:
   - wildlife

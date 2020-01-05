@@ -5,7 +5,7 @@ date: 2019-03-13 00:00:00
 description: Show the world how Rotaract is making a difference during our World Rotaract Week celebration each March.
 twitter_text: Show the world how Rotaract is making a difference during our World Rotaract Week celebration each March.
 introduction: Show the world how Rotaract is making a difference during our World Rotaract Week celebration each March.
-image: /assets/img/world-rotaract-week.jpeg
+image: /assets/img/posts/world-rotaract-week.jpeg
 category: 'Facts'
 tags:
   - facts 

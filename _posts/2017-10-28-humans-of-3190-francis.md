@@ -5,7 +5,7 @@ date: 2017-10-28 00:00:00
 description: Humans of 3190 featuring the story of Rtr. Francis Brice D’Souza
 twitter_text: Humans of 3190 featuring the story of Rtr. Francis Brice D’Souza
 introduction: Humans of 3190 featuring the story of Rtr. Francis Brice D’Souza
-image: /assets/img/francisdsouza.jpg
+image: /assets/img/posts/francisdsouza.jpg
 category: 'Humans of 3190'
 tags:
   - humans-of-3190

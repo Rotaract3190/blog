@@ -5,7 +5,7 @@ date: 2018-10-07 00:00:00
 description: Humans of 3190 featuring the story of Rtr. Akshatha S B
 twitter_text: Humans of 3190 featuring the story of Rtr. Akshatha S B
 introduction: Humans of 3190 featuring the story of Rtr. Akshatha S B
-image: /assets/img/Akshatha.jpg
+image: /assets/img/posts/Akshatha.jpg
 category: 'Humans of 3190'
 tags:
   - humans-of-3190

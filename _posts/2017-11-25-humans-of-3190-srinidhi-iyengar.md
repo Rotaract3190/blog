@@ -5,7 +5,7 @@ date: 2017-11-25 00:00:00
 description: Humans of 3190 featuring the story of Rtr. Srinidhi V Iyengar | Rotaract Club of AIMIT
 twitter_text: Humans of 3190 featuring the story of Rtr. Srinidhi V Iyengar | Rotaract Club of AIMIT
 introduction: Humans of 3190 featuring the story of Rtr. Srinidhi V Iyengar | Rotaract Club of AIMIT
-image: /assets/img/srinidhi-v-iyengar.jpg
+image: /assets/img/posts/srinidhi-v-iyengar.jpg
 category: 'Humans of 3190'
 tags:
   - humans-of-3190

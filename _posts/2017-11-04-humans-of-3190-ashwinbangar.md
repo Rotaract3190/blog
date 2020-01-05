@@ -5,7 +5,7 @@ date: 2017-11-04 00:00:00
 description: Humans of 3190 featuring the story of Rtr. Ashwin Bangar
 twitter_text: Humans of 3190 featuring the story of Rtr. Ashwin Bangar
 introduction: Humans of 3190 featuring the story of Rtr. Ashwin Bangar
-image: /assets/img/ashwinbangar.jpg
+image: /assets/img/posts/ashwinbangar.jpg
 category: 'Humans of 3190'
 tags:
   - humans-of-3190

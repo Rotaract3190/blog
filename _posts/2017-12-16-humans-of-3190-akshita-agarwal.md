@@ -5,7 +5,7 @@ date: 2017-12-16 00:00:00
 description: Humans of 3190 featuring the story of Rtr. Akshita Agarwal | Rotaract Club of Bishop Cotton Women’s Christian College
 twitter_text: Humans of 3190 featuring the story of Rtr. Akshita Agarwal | Rotaract Club of Bishop Cotton Women’s Christian College
 introduction: Humans of 3190 featuring the story of Rtr. Akshita Agarwal | Rotaract Club of Bishop Cotton Women’s Christian College
-image: /assets/img/akshita-agarwal.jpg
+image: /assets/img/posts/akshita-agarwal.jpg
 category: 'Humans of 3190'
 tags:
   - humans-of-3190

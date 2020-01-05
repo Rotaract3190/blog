@@ -5,7 +5,7 @@ date: 2017-09-02 00:00:00
 description: Humans of 3190 featuring the story of Rtr. Chetan Kashyap
 twitter_text: Humans of 3190 featuring the story of Rtr. Chetan Kashyap
 introduction: Humans of 3190 featuring the story of Rtr. Chetan Kashyap
-image: /assets/img/chetankashyap.jpg
+image: /assets/img/posts/chetankashyap.jpg
 category: 'Humans of 3190'
 tags:
   - humans-of-3190

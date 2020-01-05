@@ -5,7 +5,7 @@ date: 2017-09-23 00:00:00
 description: Humans of 3190 featuring the story of Rtr. Shamu
 twitter_text: Humans of 3190 featuring the story of Rtr. Shamu
 introduction: Humans of 3190 featuring the story of Rtr. Shamu
-image: /assets/img/shamu.jpg
+image: /assets/img/posts/shamu.jpg
 category: 'Humans of 3190'
 tags:
   - humans-of-3190
