@@ -1,7 +1,6 @@
 .idea
 .DS_Store
 .jekyll-cache
-Gemfile.lock
 package-json.lock
 _site
 node_modules
