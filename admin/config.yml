@@ -4,7 +4,7 @@ backend:
   squash_merges: true
 
 # This line should *not* be indented
-publish_mode: editorial_workflow
+# publish_mode: editorial_workflow
 
 media_folder: "assets/img/posts" # Folder where user uploaded files should go
 site_url: https://blog.rotaract3190.org
@@ -16,7 +16,7 @@ collections: # A list of collections the CMS should be able to edit
   - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Post" # Used in the UI, ie.: "New Post"
     folder: "_posts" # The path to the folder where the documents are stored
-    sort: "date:desc" # Default is title:asc
+    sort: "date:asc" # Default is title:asc
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields: # The fields each document in this collection have
@@ -30,7 +30,7 @@ collections: # A list of collections the CMS should be able to edit
       - widget: relation
         name: category
         label: Category
-        required: false
+        required: true
         hint: The categories of the post
         collection: category
         multiple: true
