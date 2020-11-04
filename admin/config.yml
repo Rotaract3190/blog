@@ -34,7 +34,7 @@ collections: # A list of collections the CMS should be able to edit
         hint: The categories of the post
         collection: categories
         multiple: true
-        valueField: 'categories/{{slug}}.md'
+        valueField: category
         searchFields:
           - category
         displayFields:
