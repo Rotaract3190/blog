@@ -14,7 +14,7 @@
     {% if page.image %}
     <meta property="twitter:image:src" content="{{ page.image }}">
     {% else %}
-    <meta property="twitter:image:src" content="{{ "/assets/img/favicon.jpg" | prepend: site.baseurl | prepend: site.url }}">
+    <meta property="twitter:image:src" content="{{ "/assets/img/favicon.png" | prepend: site.baseurl | prepend: site.url }}">
     {% endif %}
 
     <!-- Social: Facebook / Open Graph -->
@@ -23,7 +23,7 @@
     {% if page.image %}
     <meta property="og:image" content="{{ page.image }}">
     {% else %}
-    <meta property="og:image" content="{{ "/assets/img/favicon.jpg" | prepend: site.baseurl | prepend: site.url }}">
+    <meta property="og:image" content="{{ "/assets/img/favicon.png" | prepend: site.baseurl | prepend: site.url }}">
     {% endif %}
     <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
     <meta property="og:site_name" content="{{ site.title }}">
@@ -31,7 +31,7 @@
     <!-- Social: Google+ / Schema.org  -->
     <meta itemprop="name" content="{% if page.title %}{{ page.title | escape }} | {{ site.title }}{% else %}{{ site.title | escape }}{% endif %}"/>
     <meta itemprop="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-    <meta itemprop="image" content="{{ "/assets/img/favicon.jpg" | prepend: site.baseurl | prepend: site.url }}"/>
+    <meta itemprop="image" content="{{ "/assets/img/favicon.png" | prepend: site.baseurl | prepend: site.url }}"/>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="{{site.baseurl}}/favicon.ico" type="image/x-icon" />
@@ -64,4 +64,6 @@
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
