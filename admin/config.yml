@@ -36,9 +36,9 @@ collections: # A list of collections the CMS should be able to edit
         multiple: true
         valueField: 'categories/{{slug}}.md'
         searchFields:
-          - title
+          - category
         displayFields:
-          - title
+          - category
       - label: "Tags"
         name: "tags"
         widget: "list"
