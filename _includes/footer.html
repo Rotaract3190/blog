@@ -45,4 +45,17 @@
     <p><span>3190 Blog</span> made with <svg class="love"><use xlink:href="#icon-heart"></use></svg> by <a href="https://zeospec.com" target="_blank" class="creator">ZeoSpec</a></p>
 </footer>
 <script src="{{ "/assets/js/main.js" | prepend: site.baseurl }}"></script>
+
+<script>
+  if (window.netlifyIdentity) {
+  window.netlifyIdentity.on('init', function(user) {
+  if (!user) {
+  window.netlifyIdentity.on('login', function() {
+  document.location.href = '/admin/';
+  });
+  }
+  });
+  }
+</script>
+
 {% include stats.html %}
