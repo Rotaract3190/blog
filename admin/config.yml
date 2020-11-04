@@ -32,7 +32,7 @@ collections: # A list of collections the CMS should be able to edit
         label: Category
         required: true
         hint: The categories of the post
-        collection: category
+        collection: categories
         multiple: true
         valueField: 'categories/{{slug}}.md'
         searchFields:
