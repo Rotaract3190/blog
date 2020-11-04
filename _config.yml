@@ -1,7 +1,7 @@
 # Site Settings
 title: Rotaract 3190 | Blog
-email: admin@rotaract3190.org
-description: Serve to Achieve - TeamPanthers
+email: info@rotaract3190.org
+description: Innvolve Innovate Impact
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.rotaract3190.org" # the base hostname & protocol for your site
 google_analytics: "UA-122171689-2"
@@ -9,10 +9,10 @@ timezone: Asia/Kolkata
 
 # User Settings
 username: Rotaract 3190
-user_description: Serve to Achieve - TeamPanthers
+user_description: Innvolve Innovate Impact
 # disqus_username: rotaract3190
 
-user_image: /assets/img/authors/district3190.jpg
+user_image: /assets/img/authors/district3190.png
 # Social Media
 # Remove the item if you don't need it
 # github_username: Rotaract3190
