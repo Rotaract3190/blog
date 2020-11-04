@@ -27,14 +27,18 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Twitter Text", name: "twitter_text", widget: "markdown"}
       - {label: "Introduction", name: "introduction", widget: "markdown"}
       - {label: "Image", name: "image", widget: "image", default: "/assets/img/_____"}
-      - label: "Category"
-        name: "category"
-        widget: "select"
-        options:
-          - { label: "Facts", value: "Facts" }
-          - { label: "Humans of 3190", value: "Humans of 3190" }
-          - { label: "Wildlife", value: "Wildlife" }
-          - { label: "Zonal Event", value: "Zonal Event" }
+      - widget: relation
+        name: category
+        label: Category
+        required: false
+        hint: The categories of the post
+        collection: category
+        multiple: true
+        valueField: 'categories/{{slug}}.md'
+        searchFields:
+          - title
+        displayFields:
+          - title
       - label: "Tags"
         name: "tags"
         widget: "list"
